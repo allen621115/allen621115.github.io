@@ -1,114 +1,43 @@
- <!DOCTYPE ...>
-
+ <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-#days
-  {
-  width:100%;
-  border-collapse:collapse;
-  }
+<style>
+body {
+    background-color: lightblue;
+}
 
-#class td, #class th 
-  {
-  border:1px solid blue;
-  }
+h1 {
+    color: white;
+    text-align: center;
+}
 
-#class th 
-  {
-  text-align:left;
-  background: blue;
-  color:#ffffff;
-  }
-
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
 </style>
+<script language="javascript">
+function pwd
+{
+
+if(pwd=="123")
+{
+document.location.href="https://www.google.com.tw/";
+}
+else
+
+{ 
+alert("Denied !");	
+}
+}
+</script>
 </head>
-
 <body>
-<table id="class">
-<tr>
-<th>節次</th>
-<th>一</th>
-<th>二</th>
-<th>三</th>
-<th>四</th>
-<th>五</th>
-</tr>
+<p>password=123</p>
+<form name=myform onsubmit="password(this.pwdd.value)"> 
+<input type="text" name="pwdd" rows="1" size="20">
+<input type="submit" name="submit" value="Submit"> 
 
-<tr>
-<td clospan="5">0</td>
-</tr>
 
-<tr>
-<td>1</td>
-<td></td>
-<td>B1-101詞選及習作（二)
-<td>B1-104現代小說欣賞及習作（二）</td>
-<td></td>
-<td>B1-102曲選及習作</td>
-
-</tr>
-
-<tr>
-<td>2</td>
-<td>B1-106中國思想史（二）</td>
-<td>B1-101詞選及習作（二）</td>
-<td>B1-104現代小說欣賞及習作（二）</td>
-<td></td>
-<td>B1-102曲選及習作</td>
-</tr>
-
-<tr>
-<td>3</td>
-<td></td>
-<td>B1-103聲韻學（二）
-<td></td>
-<td>B1-106中國思想史（二）</td>
-<td></td>
-</tr>
-
-<tr>
-<td>4</td>
-<td></td>
-<td>B1-103聲韻學（二）</td>
-<td>B1-103聲韻學（二)</td>
-<td>B1-106中國思想史（二）</td>
-<td> </td>
-</tr>
-
-<tr>
-<td clospan="5">N</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td></td>
-<td rowspan="5"></td>
-<td rowspan="3"></td>
-<td rowspan="5"></td>
-<td>F7-031網頁應用及程式設計</td>
-</tr>
-
-<tr>
-<td>6</td>
-<td></td>
-<td>F7-031網頁應用及程式設計</td>
-</tr>
-
-<tr>
-<td>7</td>
-<td>A9-006應用物理與實驗</td>
-<td></td>
-</tr>
-
-<tr>
-<td>8</td>
-<td>A9-006應用物理與實驗</td>
-<td>F7-031網頁應用及程式設計</td>
-<td></td>
-</tr>
-
-</table>
 </body>
 </html>
-
